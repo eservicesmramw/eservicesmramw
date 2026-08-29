@@ -2,50 +2,64 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <!-- 关键点1：针对手机视口（Viewport）进行缩放适配 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document Validation</title>
   <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
     body { 
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
-      padding: 20px; 
+      padding: 16px; 
+      width: 100%;
       max-width: 600px; 
       margin: 0 auto; 
       color: #333;
+      background-color: #fff;
     }
 
     h2 {
-      font-size: 22px;
-      line-height: 1.3;
+      font-size: 20px;
+      line-height: 1.35;
       margin-bottom: 20px;
+      font-weight: 700;
+    }
+
+    h2 u {
+      text-decoration: underline;
     }
     
-    /* 每行样式：上方带灰色横线，使用 flex 布局 */
+    /* 每行样式 */
     .row {
       display: flex;
-      gap: 30px; /* 第一列与第二列之间的间距 */
-      border-top: 1px solid #e0e0e0; /* 每行上方的灰色横线 */
-      padding: 12px 0;
+      width: 100%;
+      border-top: 1px solid #e0e0e0;
+      padding: 10px 0;
       line-height: 1.4;
+      font-size: 15px;
     }
 
-    /* 第一列：锁定 100px 宽度，超出自动换行 */
+    /* 关键点2：手机端第一列采用百分比控制（占 38% 宽），避免把屏幕撑破 */
     .col-1 {
-      width: 100px;
-      flex-shrink: 0; /* 禁止被压缩 */
-      flex-grow: 0;   /* 禁止被拉伸 */
-      overflow-wrap: anywhere; /* 允许在任意字符间自动换行 */
-      word-break: break-all;
+      width: 38%;
+      padding-right: 12px;
+      flex-shrink: 0;
+      word-wrap: break-word;
+      word-break: break-word;
     }
     
-    /* 第二列：锁定 230px 宽度，超出自动换行 */
+    /* 关键点3：第二列自动填满剩余空间（占 62% 宽），长数字/字母自动折行 */
     .col-2 {
-      width: 270px;
-      flex-shrink: 0; /* 禁止被压缩 */
-      flex-grow: 0;   /* 禁止被拉伸 */
-      overflow-wrap: anywhere; /* 允许在任意字符间自动换行 */
+      flex: 1;
+      word-wrap: break-word;
       word-break: break-all;
     }
 
-    /* 表头粗体 */
+    /* 表头 */
     .header {
       font-weight: bold;
     }
@@ -54,11 +68,19 @@
       background: #5cb85c; 
       color: white; 
       border: none; 
-      padding: 14px 20px; 
-      border-radius: 4px; 
+      padding: 10px 22px; 
+      border-radius: 5px; 
       cursor: pointer; 
       margin-top: 20px; 
       font-size: 16px;
+      font-weight: 500;
+    }
+
+    .footer {
+      margin-top: 24px;
+      border-top: 1px solid #e0e0e0;
+      padding-top: 16px;
+      font-size: 14px;
     }
   </style>
 </head>
@@ -79,19 +101,19 @@
   </div>
   <div class="row">
     <div class="col-1">Receipt Number</div>
-    <div class="col-2">BYy-d-JY20-K (5617-4-20260829-000001)</div>
+    <div class="col-2">BXx-E-JY5i-B (5617-4-20260829-000001)</div>
   </div>
   <div class="row">
     <div class="col-1">Total Vat</div>
-    <div class="col-2">7111702.13</div>
+    <div class="col-2">224148.93</div>
   </div>
   <div class="row">
     <div class="col-1">Total</div>
-    <div class="col-2">4770000.00</div>
+    <div class="col-2">1505000.0</div>
   </div>
   <div class="row">
     <div class="col-1">TIN</div>
-    <div class="col-2">20235257</div>
+    <div class="col-2">31516084</div>
   </div>
   <div class="row">
     <div class="col-1">Buyers TIN</div>
@@ -99,16 +121,17 @@
   </div>
   <div class="row">
     <div class="col-1">Invoice Date Time</div>
-    <div class="col-2">2026-08-30</div>
+    <div class="col-2">2026-08-29</div>
   </div>
   <div class="row">
     <div class="col-1">Total Number of Line items</div>
-    <div class="col-2">4</div>
+    <div class="col-2">3</div>
   </div>
 
   <button onclick="history.back()">Back</button>
-  <div class="row" style="margin-top: 30px;">
-    <p >© 2026 - Malawi Revenue Authority</p>
+
+  <div class="footer">
+    © 2026 - Malawi Revenue Authority
   </div>
 
 </body>
