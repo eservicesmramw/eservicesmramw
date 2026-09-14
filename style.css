@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 20px;
+}
+
+.receipt-container {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.receipt-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8px;
+    height: 100%;
+    background: linear-gradient(180deg, #0bb40b 0%, #089108 100%);
+}
+
+.valid-badge {
+    background-color: #0bb40b;
+    color: white;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(11, 180, 11, 0.2);
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 28px;
+}
+
+.receipt-details {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    text-align: left;
+}
+
+.receipt-item {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.receipt-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.label {
+    color: #666;
+    font-size: 16px;
+}
+
+.value {
+    font-weight: bold;
+    color: #333;
+    font-size: 16px;
+}
+
+.receipt-footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.total-amount {
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #0bb40b;
+}
+
+.total-amount .value {
+    font-size: 20px;
+    color: #0bb40b;
+}
+
+.stamp {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    transform: rotate(12deg);
+    opacity: 0.1;
+    font-size: 70px;
+    font-weight: bold;
+    color: #0bb40b;
+    letter-spacing: 1px;
+    pointer-events: none;
+}
+
+.align-split {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.right-value {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.invoice-number,
+.serial-number {
+    font-weight: bold;
+    color: #333;
+    font-size: 16px;
+}
