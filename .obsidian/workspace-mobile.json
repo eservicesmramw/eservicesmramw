@@ -13,10 +13,10 @@
             "state": {
               "type": "html-view",
               "state": {
-                "file": "Y20120909.html"
+                "file": "Y28888.html"
               },
               "icon": "code-glyph",
-              "title": "Y20120909"
+              "title": "Y28888"
             }
           }
         ]
@@ -169,6 +169,10 @@
   },
   "active": "8ab351e9329f2004",
   "lastOpenFiles": [
+    "Y20120909.html",
+    "style2.css",
+    "style.css",
+    "Y28888.html",
     "Y25125.html",
     "2525100.html",
     "9132020.html",
