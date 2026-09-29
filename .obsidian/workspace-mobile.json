@@ -13,10 +13,10 @@
             "state": {
               "type": "html-view",
               "state": {
-                "file": "92960X5.html"
+                "file": "92960x5.html"
               },
               "icon": "code-glyph",
-              "title": "92960X5"
+              "title": "92960x5"
             }
           }
         ]
@@ -171,6 +171,8 @@
   },
   "active": "8ab351e9329f2004",
   "lastOpenFiles": [
+    "92960X5.html",
+    "92960x5.html",
     "squaretube928.html",
     "60x60x5.html",
     "HUAMIN926.html",
@@ -179,8 +181,6 @@
     "AWEI9254.0.html",
     "Angleiron924.html",
     "Y20120909.html",
-    "HUAMIN923.html",
-    "HUAMIN924.html",
-    "40810pvc110.html"
+    "HUAMIN923.html"
   ]
 }
