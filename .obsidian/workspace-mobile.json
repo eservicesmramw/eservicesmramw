@@ -13,10 +13,10 @@
             "state": {
               "type": "html-view",
               "state": {
-                "file": "60x60x5.html"
+                "file": "squaretube928.html"
               },
               "icon": "code-glyph",
-              "title": "60x60x5"
+              "title": "squaretube928"
             }
           }
         ]
@@ -171,6 +171,7 @@
   },
   "active": "8ab351e9329f2004",
   "lastOpenFiles": [
+    "60x60x5.html",
     "HUAMIN926.html",
     "40x401000.html",
     "LC7592597.html",
@@ -180,7 +181,6 @@
     "HUAMIN923.html",
     "HUAMIN924.html",
     "40810pvc110.html",
-    "40x80465.html",
-    "y252510025qu.html"
+    "40x80465.html"
   ]
 }
