@@ -11,12 +11,10 @@
             "id": "8ab351e9329f2004",
             "type": "leaf",
             "state": {
-              "type": "html-view",
-              "state": {
-                "file": "FENCING WIRE1.8MM.html"
-              },
-              "icon": "code-glyph",
-              "title": "FENCING WIRE1.8MM"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -171,6 +169,7 @@
   },
   "active": "8ab351e9329f2004",
   "lastOpenFiles": [
+    "FENCING WIRE1.8MM.html",
     "40x401000.html",
     "HUAMIN101.html",
     "92960x5.html",
@@ -180,7 +179,6 @@
     "HUAMIN926.html",
     "LC7592597.html",
     "AWEI9254.0.html",
-    "Angleiron924.html",
-    "Y20120909.html"
+    "Angleiron924.html"
   ]
 }
