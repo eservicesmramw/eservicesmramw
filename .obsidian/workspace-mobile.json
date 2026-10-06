@@ -13,10 +13,10 @@
             "state": {
               "type": "html-view",
               "state": {
-                "file": "LINKUC105.html"
+                "file": "HUAMIN106.html"
               },
               "icon": "code-glyph",
-              "title": "LINKUC105"
+              "title": "HUAMIN106"
             }
           }
         ]
@@ -171,6 +171,7 @@
   },
   "active": "8ab351e9329f2004",
   "lastOpenFiles": [
+    "LINKUC105.html",
     "1003lc84.html",
     "FENCING WIRE1.8MM.html",
     "40x401000.html",
@@ -180,7 +181,6 @@
     "squaretube928.html",
     "60x60x5.html",
     "HUAMIN926.html",
-    "LC7592597.html",
-    "AWEI9254.0.html"
+    "LC7592597.html"
   ]
 }
