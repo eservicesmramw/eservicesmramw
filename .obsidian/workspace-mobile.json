@@ -13,10 +13,10 @@
             "state": {
               "type": "html-view",
               "state": {
-                "file": "Y25125.html"
+                "file": "HUAMIN106.html"
               },
               "icon": "code-glyph",
-              "title": "Y25125"
+              "title": "HUAMIN106"
             }
           }
         ]
@@ -35,7 +35,9 @@
           "type": "file-explorer",
           "state": {
             "sortOrder": "alphabetical",
-            "autoReveal": false
+            "autoReveal": false,
+            "showSearch": false,
+            "searchQuery": ""
           },
           "icon": "lucide-folder-closed",
           "title": "文件列表"
@@ -169,12 +171,16 @@
   },
   "active": "8ab351e9329f2004",
   "lastOpenFiles": [
-    "2525100.html",
-    "Y25125.html",
-    "9132020.html",
-    "20401500.html",
-    "9-13Y16.html",
-    "9-13Y20.html",
-    "y252510025qu 1.html"
+    "LINKUC105.html",
+    "1003lc84.html",
+    "FENCING WIRE1.8MM.html",
+    "40x401000.html",
+    "HUAMIN101.html",
+    "92960x5.html",
+    "92960X5.html",
+    "squaretube928.html",
+    "60x60x5.html",
+    "HUAMIN926.html",
+    "LC7592597.html"
   ]
 }
