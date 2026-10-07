@@ -18,8 +18,21 @@
               "icon": "code-glyph",
               "title": "Y28888"
             }
+          },
+          {
+            "id": "5a2c8bd62df18aca",
+            "type": "leaf",
+            "state": {
+              "type": "html-view",
+              "state": {
+                "file": "HUAMIN106.html"
+              },
+              "icon": "code-glyph",
+              "title": "HUAMIN106"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,19 +193,19 @@
       "bases:新建数据库": false
     }
   },
-  "active": "a13c4aef5496d8a2",
+  "active": "5a2c8bd62df18aca",
   "lastOpenFiles": [
-    "9132020.html",
+    "conflict-files-obsidian-git.md",
     "Y28888.html",
-    "Y20120909.html",
-    "y252510025qu.html",
-    "20401500.html",
-    "2525100.html",
-    "Receipt.html",
-    "index.html",
-    "style2.css",
-    "style_副本.css",
-    "Y25125.html",
+    "squaretube928.html",
+    "lafangguan1007.html",
+    "dian106Y12290.html",
+    "Y1250.html",
+    "PVC1005.html",
+    "LINKUC105.html",
+    "LC7592597.html",
+    "HUAMIN924.html",
+    "HUAMIN106.html",
     "README.md",
     "未命名.md"
   ]
