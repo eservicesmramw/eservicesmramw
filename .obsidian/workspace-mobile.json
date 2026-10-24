@@ -11,12 +11,10 @@
             "id": "8ab351e9329f2004",
             "type": "leaf",
             "state": {
-              "type": "html-view",
-              "state": {
-                "file": "fangguan1018.html"
-              },
-              "icon": "code-glyph",
-              "title": "fangguan1018"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -171,6 +169,7 @@
   },
   "active": "8ab351e9329f2004",
   "lastOpenFiles": [
+    "fangguan1018.html",
     "9-13Y16.html",
     "HUAMIN10-16luowen.html",
     "100840405.html",
@@ -180,7 +179,6 @@
     "LINKUC105.html",
     "1003lc84.html",
     "FENCING WIRE1.8MM.html",
-    "40x401000.html",
-    "HUAMIN101.html"
+    "40x401000.html"
   ]
 }
