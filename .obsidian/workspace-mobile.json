@@ -13,10 +13,10 @@
             "state": {
               "type": "html-view",
               "state": {
-                "file": "King1027.html"
+                "file": "HUAMIN10-28.html"
               },
               "icon": "code-glyph",
-              "title": "King1027"
+              "title": "HUAMIN10-28"
             }
           }
         ]
@@ -171,6 +171,9 @@
   },
   "active": "8ab351e9329f2004",
   "lastOpenFiles": [
+    "King1027.html",
+    "HUAMIN10-27.html",
+    "HUAMIN10-28.html",
     "fangguan1018.html",
     "9-13Y16.html",
     "HUAMIN10-16luowen.html",
@@ -178,9 +181,6 @@
     "HUAMIN1084101.html",
     "HUAMIN106.html",
     "HUAMIN107luowen.html",
-    "LINKUC105.html",
-    "1003lc84.html",
-    "FENCING WIRE1.8MM.html",
-    "40x401000.html"
+    "LINKUC105.html"
   ]
 }
