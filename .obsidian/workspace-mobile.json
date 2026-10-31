@@ -13,10 +13,10 @@
             "state": {
               "type": "html-view",
               "state": {
-                "file": "HUAMIN1029.html"
+                "file": "HUAMIN1030.html"
               },
               "icon": "code-glyph",
-              "title": "HUAMIN1029"
+              "title": "HUAMIN1030"
             }
           }
         ]
@@ -171,6 +171,7 @@
   },
   "active": "8ab351e9329f2004",
   "lastOpenFiles": [
+    "HUAMIN1029.html",
     "wh1028.html",
     "HUAMIN10-28.html",
     "HUAMIN1084101.html",
@@ -180,7 +181,6 @@
     "9-13Y16.html",
     "HUAMIN10-16luowen.html",
     "100840405.html",
-    "HUAMIN106.html",
-    "HUAMIN107luowen.html"
+    "HUAMIN106.html"
   ]
 }
