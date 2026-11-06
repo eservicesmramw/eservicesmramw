@@ -13,10 +13,10 @@
             "state": {
               "type": "html-view",
               "state": {
-                "file": "110575MM.html"
+                "file": "HUAMIN1106.html"
               },
               "icon": "code-glyph",
-              "title": "110575MM"
+              "title": "HUAMIN1106"
             }
           }
         ]
@@ -171,6 +171,9 @@
   },
   "active": "8ab351e9329f2004",
   "lastOpenFiles": [
+    "HUAMIN1084101.html",
+    "HUAMIN1106.html",
+    "110575MM.html",
     "1105LC1003.html",
     "1105LC1002.html",
     "1005LC1003.html",
@@ -178,9 +181,6 @@
     "112Y10711.html",
     "HUAMIN1029.html",
     "wh1028.html",
-    "HUAMIN10-28.html",
-    "HUAMIN1084101.html",
-    "King1027.html",
-    "HUAMIN10-27.html"
+    "HUAMIN10-28.html"
   ]
 }
