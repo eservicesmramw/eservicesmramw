@@ -11,12 +11,10 @@
             "id": "8ab351e9329f2004",
             "type": "leaf",
             "state": {
-              "type": "html-view",
-              "state": {
-                "file": "1119Y168.html"
-              },
-              "icon": "code-glyph",
-              "title": "1119Y168"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -171,6 +169,8 @@
   },
   "active": "8ab351e9329f2004",
   "lastOpenFiles": [
+    "1119Y168.html",
+    "1118Y168.html",
     "HUAMIN11182.html",
     "1113nails.html",
     "111860601610.html",
@@ -179,8 +179,6 @@
     "1117Y1215.html",
     "11175050380.html",
     "1116fencing4.html",
-    "1116irondoor6.html",
-    "111640401235.html",
-    "111650x50x3.html"
+    "1116irondoor6.html"
   ]
 }
